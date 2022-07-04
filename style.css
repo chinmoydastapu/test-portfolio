@@ -15,7 +15,10 @@ body{
 h1{
     font-size: 40px;  
 }
-#spanning-portion{
+h2{
+    font-size: 32px;
+}
+.spanning-portion{
     color: orange;
 }
 .img-work{
@@ -43,4 +46,35 @@ h1{
     height: 10%;
     width: 10%;
     padding-top: 14%;
+}
+#exp-section{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 7%;
+}
+#full-stack{
+   width: 40%;
+   margin-left: 3%;
+   margin-right: 2%;
+   padding: 1% 4%;
+   box-shadow: 5px 5px 40px gray;
+   padding-bottom: 6%;
+   border-radius: 1%;
+   border-left: 7px solid tomato;
+}
+#problem-solver{
+   width: 40%;
+   margin-left: 2%;
+   margin-right: 3%;
+   padding: 1% 4%;
+   box-shadow: 5px 5px 40px gray;
+   padding-bottom: 6%;
+   border-radius: 1%;
+   border-left: 7px solid blue;
+}
+#footer-part{
+    text-align: center;
+    padding-top: 5%;
 }
